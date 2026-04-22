@@ -1,0 +1,15 @@
+// ltl-pem-read/main.ltl
+//
+// PEM / DER decoder for X.509, PKCS#8, and SSH keys.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pem-read v0.1.0")
+    io::println("PEM / DER decoder for X.509, PKCS#8, and SSH keys.")
+    0
+}
